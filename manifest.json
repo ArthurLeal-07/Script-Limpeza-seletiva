@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "TI - Limpeza de preenchimento automático",
+  "version": "1.0.0",
+  "description": "Remove somente os dados salvos de preenchimento automático ao iniciar o Cent Browser.",
+  "permissions": [
+    "browsingData"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
