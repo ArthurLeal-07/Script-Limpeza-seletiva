@@ -6,11 +6,11 @@ Observação: Também funciona no navegador Google Chrome.
 *não solicita a remoção de cookies, senhas salvas, cache, histórico ou outros tipos de dados.
 
 1. Feche completamente o Cent Browser.
-2. Extraia a pasta `CentBrowser_FormData_Cleanup` para um local fixo no computador. Recomendação: `C:\CentBrowser\FormCleanup`.
+2. Extraia a pasta `Script-limpeza-seletiva-main` para um local fixo no computador. Recomendação: `C:\CentBrowser\Script-limpeza-seletiva-main`.
 3. Não mova, renomeie ou apague essa pasta depois de carregar a extensão. O Cent Browser precisa continuar acessando os arquivos nesse local.
 4. Abra o Cent Browser e acesse `chrome://extensions`.
 5. Ative o **Modo do desenvolvedor**.
-6. Clique em **Carregar sem compactação** e selecione a pasta `C:\CentBrowser\FormCleanup` (ou o local fixo escolhido no passo 2).
+6. Clique em **Carregar sem compactação** e selecione a pasta `C:\CentBrowser\Script-limpeza-seletiva-main` (ou o local fixo escolhido no passo 2).
 7. Confirme que a extensão aparece na lista e está ativada.
 8. Feche todas as janelas do Cent Browser e abra o navegador novamente.
 9. Verifique se os dados de preenchimento automático foram removidos. Confirme também que cookies, sessões, senhas salvas e cache continuam disponíveis.
@@ -32,7 +32,7 @@ Repita os passos em cada computador. Essa instalação precisa ser feita em cada
 ## Remoção da extensão
 1. Acesse `chrome://extensions`.
 2. Clique em **Remover** na extensão de limpeza.
-3. Se não for mais necessária, feche o navegador e apague a pasta `FormCleanup` que foi copiada para o computador.
+3. Se não for mais necessária, feche o navegador e apague a pasta `Script-limpeza-seletiva-main` que foi copiada para o computador.
 
 ## Limitação
 Esta é uma extensão de teste para instalação manual. Não é instalada automaticamente em outras máquinas.
